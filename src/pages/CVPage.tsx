@@ -185,7 +185,7 @@ export const CVPage: React.FC = () => {
                   <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 600, color: palette.colors.textHeading }}>
                     {section.title}
                   </h2>
-                  <p style={{ marginBottom: '2rem', opacity: 0.9 }}>
+                  <p style={{ marginBottom: '2rem', opacity: 0.9, whiteSpace: 'pre-wrap' }}>
                     {section.content}
                   </p>
                 </div>
