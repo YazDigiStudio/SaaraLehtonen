@@ -5,9 +5,6 @@ backend:
 # Enable local development mode (reads/writes actual files)
 local_backend: true
 
-# Enable editorial workflow (draft/review/publish)
-publish_mode: editorial_workflow
-
 media_folder: "public/images/downloads"
 public_folder: "/images/downloads"
 
